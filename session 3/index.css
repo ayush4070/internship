@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: aqua;
+  align-items: center;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+li {
+  margin-right: 12px;
+}
+
+@media only screen and (max-width: 230px) {
+  nav {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 160px) {
+  ul {
+    display: block;
+  }
+}
